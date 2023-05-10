@@ -23,7 +23,6 @@ Developed by: CHANDRA SRINIVASULA REDDY
 RegisterNumber:  212220040028
 ```
 import numpy as np 
-
 import matplotlib.pyplot as plt
 x=np.array(eval(input()))
 y=np.array(eval(input()))
