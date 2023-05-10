@@ -30,8 +30,8 @@ ss=np.mean(x)
 sa=np.mean(y)
 num,demon=0,0
 for i in range (len(x)):
-  num+=(x[i]-ss)*(y[i]-sa)
-  demon+=(x[i]-ss)**2
+num+=(x[i]-ss)*(y[i]-sa)
+demon+=(x[i]-ss)**2
 m=num/demon
 b=sa-m*ss
 print(m,b)
